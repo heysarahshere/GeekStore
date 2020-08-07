@@ -1,2 +1,2 @@
 # GeekStore
-E-Commerce Project for SCC
+PHP/Laravel E-Commerce Project for SCC
