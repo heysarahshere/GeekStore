@@ -1,0 +1,694 @@
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+a:visited {
+    color: #858585;
+}
+
+a:hover {
+    color: #780d0b;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.button {
+    border: 1px solid #f1f1f1;
+    padding: 12px 40px;
+}
+
+.button:hover {
+    color: #060606;
+    background: #f1f0ef;
+}
+
+.button-white {
+    border: 1px solid #f1f1f1;
+    color: #f1f0ef !important;
+}
+
+.button-white:hover {
+    color: #f1f0ef !important;
+    background: #060606;
+}
+
+.section-description {
+    width: 80%;
+    margin: auto;
+}
+
+.button-container {
+    margin: 80px 0;
+}
+
+.error {
+    color: #500006;
+}
+
+.whiteband {
+    padding: 10rem;
+    background-color: white;
+    height: 10rem;
+}
+
+/* ----------------------------------------------------------- header -----------------------------------------------------*/
+
+#navBackground  {
+    background-color: black;
+    height: 5rem;
+}
+header {
+    background: url('../images/background-dark.png');
+    background-size: cover;
+    color: #f1f0ef;
+}
+
+.navbar-nav > li{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 28px;
+}
+.dark {
+    color: #000000;
+    font-size: medium;
+}
+.dark-header {
+    background-color: #d0d0d0;
+    font-size: large;
+}
+
+/* ----------------------------------------------------------- featured -----------------------------------------------------*/
+
+.card .image {
+    height: 30px;
+    position: relative;
+}
+.card title {
+
+}
+
+.card h2 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    /*opacity: .4;*/
+}
+
+.featured .card {
+    background-color: rgba(80, 0, 6, 0.84);
+
+}
+.featured div {
+    /*display: inline-block;*/
+    padding: 5px;
+}
+.featured img {
+    padding: 10px;
+}
+
+.featured-section {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+/* ----------------------------------------------------------- hero -----------------------------------------------------*/
+.hero {
+    margin-top: 2vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding-top: 20px;
+    /*padding-bottom: 84px;*/
+}
+
+.hero .hero-image {
+    /*width: 70%;*/
+    /*height: 70%;*/
+    /*padding-left: 40px;*/
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-top: 50px;
+}
+
+.hero p {
+    margin: 40px 0 68px;
+}
+
+
+.binary {
+    background: url('../images/binary.png');
+    background-size: inherit;
+    color: #f1f0ef;
+}
+
+.red {
+    background: url('../images/background-red.png');
+    background-size: cover;
+    color: #f1f0ef;
+}
+
+/* ----------------------------------------------------------- show page radio buttons -----------------------------------------------------*/
+
+.Red i {
+    color: #b60009;
+}
+
+.Black i {
+    color: #212121;
+}
+
+.Gray i  {
+    color: #4a4a4a;
+}
+
+.White i  {
+    color: #f1f1f1;
+}
+
+.Silver i  {
+    color: #868686;
+}
+
+.Cream i  {
+    color: #d9d0b5;
+}
+
+.Blue i {
+    color: #00419e;
+}
+
+.input-radio{
+    /*display: inline-block;*/
+}
+input[type=radio] {
+    display: none;
+}
+/*input[type=radio] + label {*/
+/*    padding: 10px;*/
+/*    border-radius: 50%;*/
+/*    border: 1px solid #ddd;*/
+
+/*}*/
+input[type=radio] + label:hover i {
+    border: 2px solid #f1f1f1;
+    /*background-color: white;*/
+    border-radius: 5%;
+    width: 44px;
+    height: 44px;
+}
+input[type=radio]:checked + label i {
+    border: 2px solid #f1f1f1;
+
+    /*background-color: white;*/
+    border-radius: 5%;
+    width: 44px;
+    height: 44px;
+}
+
+/* ----------------------------------------------------------- reviews -----------------------------------------------------*/
+
+.reviews .container-fluid {
+    background: url('../images/background-red.png');
+    background-size: cover;
+
+}
+.reviews div {
+    color: #111111;
+}
+.reviews a {
+    color: black;
+}
+
+.reviews .card-body {
+    border: #505050 solid 5px;
+    border-radius: 1%;
+}
+
+.darkish {
+    background-color: #eeeeee;
+}
+.light .card-body{
+    font-size: large;
+    background-color: #ffffff;
+    color: black;
+}
+
+.light .card-header {
+    background-color: #eeeeee;
+    color: black;
+}
+.light .card-title {
+    font-size: large;
+}
+
+/* ----------------------------------------------------------- rating -----------------------------------------------------*/
+.rating {
+    float:left;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    /*padding:0 .1em;*/
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1;
+    color:#ddd;
+    /*text-shadow:1px 1px #b20023, 2px 2px #620008, .1em .1em .2em rgba(0,0,0,.5);*/
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #b60009;
+    /*text-shadow:1px 1px #b20023, 2px 2px #8f0009, .1em .1em .2em rgba(0,0,0,.5);*/
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #8f0009;
+    /*text-shadow:1px 1px #620200, 2px 2px #620010, .1em .1em .2em rgba(0,0,0,.5);*/
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #8f0009;
+    /*text-shadow:1px 1px #440006, 2px 2px #620008, .1em .1em .2em rgba(0,0,0,.5);*/
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+/* ----------------------------------------------------------- products -----------------------------------------------------*/
+.card-product:after {
+    content: "";
+    display: table;
+    clear: both;
+    visibility: hidden; }
+
+.card-product {
+    border: solid white 1px;
+    margin-bottom: 30px;
+}
+.card-product .price-new, .card-product .price {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.card-product .price-old {
+    color: #999; }
+.card-product .img-wrap {
+    padding: 30px;
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 290px;
+    text-align: center; }
+.card-product .img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover; }
+
+.card-product .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee; }
+.card-product .action-wrap {
+    padding-top: 4px;
+    margin-top: 4px; }
+.card-product .bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee; }
+.card-product .title {
+    margin-top: 0; }
+
+ .products {
+justify-content: space-around;
+     margin: 0 auto;
+}
+
+/* ----------------------------------------------------------- checkout -----------------------------------------------------*/
+
+ .readonly input[type="text"], .shipping_block {
+     color: #9e9e9e;
+     background-color: rgba(241, 241, 241, 0.12);
+ }
+
+ .details {
+     color: white;
+ }
+
+/* ----------------------------------------------------------- blog -----------------------------------------------------*/
+.blog-section {
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0.48), rgba(6, 6, 6, 0.67)),  url('../images/background-red.png');
+    background-size: cover;
+    /*background: #060606;*/
+    /*border-top: 1px solid #060606;*/
+    padding: 50px 0;
+}
+
+.blog-section .blog-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 60px 0 60px;
+    grid-template-areas: "blog1 blog2 blog3";
+}
+
+.blog-section .blog-posts #blog1 {
+    grid-area: blog1;
+}
+
+.blog-section .blog-posts #blog2 {
+    grid-area: blog2;
+}
+
+.blog-section .blog-posts #blog3 {
+    grid-area: blog3;
+}
+
+/* ----------------------------------------------------------- user -----------------------------------------------------*/
+
+
+.signupForm input[type=text]{
+    margin-bottom: 10px;
+}
+.signinForm {
+}
+
+.signinForm input[type=text]{
+    margin-bottom: 10px;
+}
+/*.signupForm a, a:visited {*/
+/*    color: black;*/
+/*}*/
+
+/*.signinForm a, a:visited {*/
+/*    color: black;*/
+/*}*/
+/* ----------------------------------------------------------- cart -----------------------------------------------------*/
+
+
+.cart {
+    color: white;
+ }
+.cart table {
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+.cart thead {
+    text-align: left;
+}
+
+.odd {
+    background-color: #212121;
+}
+.right {
+    text-align: right;
+}
+.total {
+  padding-top: 10px;
+}
+
+form label {
+    color: white;
+}
+
+form h1 {
+    padding-top: 20px;
+    color: white;
+}
+
+
+.checkoutForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.checkout input {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.details thead {
+    font-size: large;
+}
+
+/* ----------------------------------------------------------- description -----------------------------------------------------*/
+.description {
+    padding-bottom: 30px;
+    font-size: large;
+    color: white;
+}
+.description p {
+    padding: 0;
+    margin: 0;
+}
+
+/* ----------------------------------------------------------- footer -----------------------------------------------------*/
+footer {
+    background: #060606;
+    color: #505050;
+    padding: 40px 0;
+}
+
+footer .footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+footer .footer-content ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 30%;
+}
+
+footer .footer-content ul a i {
+    color: #500006;
+}
+
