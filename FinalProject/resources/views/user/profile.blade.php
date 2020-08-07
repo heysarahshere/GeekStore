@@ -60,7 +60,7 @@
                         <div class="products container">
                             <div class="row">
                                 @foreach($orders as $order)
-                                    <div class="col-md-4 p-4">
+                                    <div class="col-md-3 pl-5 pr-5 m-5">
                                         <div class="card dark" style="width: 20rem;">
                                             <div class="card-header dark-header">
                                                 <div>

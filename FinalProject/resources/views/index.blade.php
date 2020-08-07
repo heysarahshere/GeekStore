@@ -42,18 +42,15 @@
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-6">
-                                    <div class="img-wrap">
-                                        <img src="{{asset('images/womenslong.png')}}" alt="First Slide">
-                                    </div>
-                            </div> <!-- col // -->
-                            <div class="col-md-6">
-                                        <h5>Women's Long Sleeved Polo</h5>
-                                        <p>Description</p>
-                            </div> <!-- col // -->
-                        </div>
-
+                        <div class="col-md-12">
+                            <figure class="card card-product">
+                                <div class="img-wrap">
+                                    <img src="{{asset('images/womenslong.png')}}" alt="Second Slide">
+                                </div>
+                                <figcaption class="info-wrap">
+                                </figcaption>
+                            </figure> <!-- card // -->
+                        </div> <!-- col // -->
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-12">

@@ -15,7 +15,7 @@
         <div class="hero container" id="background">
             <div class="hero-copy">
                 <h1>Shopping Cart</h1>
-                <div class="hero-buttons">
+                <div class="hero-buttons pb-3">
                     <a href="{{route('products')}}" class="button button-white">RETURN TO STORE</a>
                 </div>
             </div> <!-- end hero-copy -->

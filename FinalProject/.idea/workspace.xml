@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ddc4907-ae0f-44b0-9231-9cd79663b3cf" name="Default Changelist" comment="" />
+    <list default="true" id="0ddc4907-ae0f-44b0-9231-9cd79663b3cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_11_29_003107_create_payments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_11_29_003107_create_payments_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/calculate.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/calculate.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/store/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/cart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/store/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/checkout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/store/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/confirm.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/profile.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +94,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -177,6 +189,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1UCpVQgtFVcQ9RvYJxpPkBN1iuA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -269,10 +282,28 @@
       <workItem from="1577464882835" duration="61000" />
       <workItem from="1577466571626" duration="470000" />
       <workItem from="1578603587291" duration="30265000" />
+      <workItem from="1583085775159" duration="79000" />
+      <workItem from="1591756422752" duration="784000" />
+      <workItem from="1591918774360" duration="5000" />
+      <workItem from="1591919425741" duration="640000" />
+      <workItem from="1596646104267" duration="1946000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
